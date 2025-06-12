@@ -5,63 +5,9 @@
     <title>jayakrishna1982</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', sans-serif;
-            background-color: #f4f9ff;
-            color: #333;
-            scroll-behavior: smooth;
-        }
-        .header {
-            background-color: #0057b7;
-            padding: 20px 0;
-            color: white;
-            text-align: center;
-        }
-        .nav {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            background-color: #003e91;
-            padding: 10px 0;
-        }
-        .nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .nav a:hover {
-            text-decoration: underline;
-        }
-        .section {
-            padding: 60px 20px;
-            text-align: center;
-        }
-        .form-container {
-            max-width: 500px;
-            margin: auto;
-        }
-        input, textarea {
-            width: 90%;
-            padding: 10px;
-            margin: 10px 0;
-        }
-        .footer {
-            background-color: #003e91;
-            color: white;
-            text-align: center;
-            padding: 15px 0;
-        }
-        .social a {
-            color: white;
-            margin: 0 10px;
-            text-decoration: none;
-        }
-    </style>
 </head>
 <body>
-<script src="script.js"></script>
+
 <div class="header">
     <h1>Welcome to jayakrishna1982's Website</h1>
     <p>Your digital space, your story</p>
@@ -86,7 +32,7 @@
 <div class="section" id="contact">
     <h2>Contact Me</h2>
     <div class="form-container">
-        <form>
+        <form id="contact-form">
             <input type="text" name="name" placeholder="Your Name" required><br>
             <input type="email" name="email" placeholder="Your Email" required><br>
             <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br>
@@ -105,5 +51,6 @@
     <p>&copy; 2025 jayakrishna1982</p>
 </div>
 
+<script src="script.js"></script>
 </body>
 </html>

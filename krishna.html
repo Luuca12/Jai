@@ -3,22 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <title>jayakrishna1982</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f8;
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f9ff;
             color: #333;
-            text-align: center;
-            padding-top: 100px;
+            scroll-behavior: smooth;
         }
-        h1 {
-            color: #0057b7;
+        .header {
+            background-color: #0057b7;
+            padding: 20px 0;
+            color: white;
+            text-align: center;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            background-color: #003e91;
+            padding: 10px 0;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .form-container {
+            max-width: 500px;
+            margin: auto;
+        }
+        input, textarea {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .footer {
+            background-color: #003e91;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+        .social a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to jayakrishna1982's Website!</h1>
-    <p>This is a simple starter webpage. You can customize it to include anything you like—photos, blogs, contact info, or even cool projects.</p>
+
+<div class="header">
+    <h1>Welcome to jayakrishna1982's Website</h1>
+    <p>Your digital space, your story</p>
+</div>
+
+<div class="nav">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</div>
+
+<div class="section" id="about">
+    <h2>About Me</h2>
+    <p>This is where you can share who you are, what you love, or your story.</p>
+</div>
+
+<div class="section" id="projects">
+    <h2>Projects</h2>
+    <p>Highlight any work you've done here—coding, art, blogs, anything you're proud of.</p>
+</div>
+
+<div class="section" id="contact">
+    <h2>Contact Me</h2>
+    <div class="form-container">
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Connect with me</p>
+    <div class="social">
+        <a href="#">Twitter</a> | 
+        <a href="#">LinkedIn</a> | 
+        <a href="#">GitHub</a>
+    </div>
+    <p>&copy; 2025 jayakrishna1982</p>
+</div>
+
 </body>
 </html>
-
